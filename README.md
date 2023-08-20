@@ -12,7 +12,6 @@ pip cache purge
 ### How to use this lib? :
 
 You just have to use classic import / from import. <br>
-The syntaxe is just longer. For exemple, in order to use SFTP, you can write : <br>
 ````
 import musicPyLib.music as ms
 
