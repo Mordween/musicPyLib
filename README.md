@@ -14,8 +14,8 @@ pip cache purge
 You just have to use classic import / from import. <br>
 The syntaxe is just longer. For exemple, in order to use SFTP, you can write : <br>
 ````
-from musicPyLib.musicPyLib import music
+import musicPyLib.music as ms
 
 #launches the program
-music()
+ms.music()
 ````
