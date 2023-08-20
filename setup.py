@@ -8,7 +8,7 @@ setup(
     author_email="al.ridolfi@laposte.fr",
     packages= ['musicPyLib'],
     install_requires=[
-        'tk >= 8.6.12',
+        'tk >= 0.1.0',
         'pytube >= 15.0.0' 
     ],
 )
