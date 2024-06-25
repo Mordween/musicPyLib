@@ -15,6 +15,8 @@ The creator of this library disclaims any liability for the misuse of this tool 
 to download the library you need to issue the following command >
 ````
 pip install git+https://@github.com/Mordween/musicPyLib.git
+git clone https://github.com/Mordween/musicPyLib.git
+pip install -e .
 ````
 If you have problem with python cache, use : 
 ````
