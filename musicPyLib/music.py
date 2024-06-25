@@ -46,8 +46,10 @@ class playlistManagement:
         self.songsPath = songsPath
 
     def add_song(self, songName, musicType):
-        songFullName = songName.replace("'", "") + musicType
+        songFullName = songName.replace(" ", "%20")
+        songFullName = songFullName.replace("'", "") + musicType
         songPath = os.path.join(self.songsPath, songFullName)
+        songPath = "file:///" + songPath
         self.playlistFile.write(songPath + '\n')
 
 
